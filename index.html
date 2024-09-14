@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(233, 47%, 7%);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card border-0 bg-primary" style="width: 1100px; height: 446px;">
+      <div class="d-flex justify-content-between">
+        <div class="content" style="width: 400px; margin-left: 50px; margin-top: 60px;">
+          <h1 class="text-light" style="font-family: Inter, sans-serif; font-weight: 700;">Get <span class="text-info">insights</span> that help your business grow.</h1>
+          <p class="mt-4 text-secondary text-opacity-50" style="font-family: Inter, system-ui;">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.</p>
+          <div class="d-flex justify-content-between" style="margin-top: 70px; font-family: Inter, system-ui; font-weight: 400;">
+            <div class="">
+              <h4 class="text-light fw-bold">10k+</h4>
+              <p class="text-secondary text-opacity-50 text-uppercase">companies</p>
+            </div>
+            <div class="ms-5">
+              <h4 class="text-light fw-bold">314</h4>
+              <p class="text-secondary text-opacity-50 text-uppercase">templates</p>
+            </div>
+            <div class="ms-5">
+              <h4 class="text-light fw-bold">12M+</h4>
+              <p class="text-secondary text-opacity-50 text-uppercase">queries</p>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative">
+          <img src="images/image-header-desktop.jpg" alt="" class="rounded-end img-fluid">
+          <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">yota54123</a>.
+  </div>
+</body>
+
+</html>
